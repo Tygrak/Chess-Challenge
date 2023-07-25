@@ -4,7 +4,7 @@ using System;
 namespace ChessChallenge.Example
 {
     // basic negamax
-    public class EvilBot : IChessBot
+    public class DefaultEvilBot : IChessBot
     {
         //piece values         .  P    K    B    R    Q     K
         int[] pieceValues = { 0, 100, 300, 310, 500, 900, 10000 };
